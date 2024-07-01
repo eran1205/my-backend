@@ -14,8 +14,8 @@ public class DBConnection  {
 
     private static String host = "mysql-26a10081-eran1205-d4b7.a.aivencloud.com";
     private static String port = "19639";
-    private static String username = "avnadmin";
-    private static String password = "AVNS_Q_uNCxZ6-Q5k962sA_H";
+    private static String username = ""; //""avnadmin";
+    private static String password = ""; //"AVNS_Q_uNCxZ6-Q5k962sA_H";
     private static String db = "defaultdb";
 
     public static Connection getConnection() {
